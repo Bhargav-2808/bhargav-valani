@@ -1,11 +1,20 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter} from 'react-router-dom'
+import Links from './Navigation/Links'
+import Path from './Navigation/Path'
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-       Hello
-    </div>
+    <>
+      <BrowserRouter>
+        <Links/>
+        <Path/>
+      
+      </BrowserRouter>
+
+     
+    </>
   );
 }
 
