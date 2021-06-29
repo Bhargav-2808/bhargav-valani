@@ -8,7 +8,7 @@ export default function Links() {
       <header>
       <Navbar collapseOnSelect expand="sm" className="bgc">
         <Container>
-          <Navbar.Brand href="#home" className="logo">Bhargav Valani</Navbar.Brand>
+          <Navbar.Brand  className="logo">Bhargav Valani</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="">
             <Nav className="ml-sm-auto ">
