@@ -1,38 +1,52 @@
-h3{
+.homeContainer .hometTitle h3{
     font-size: 1.75rem;
     display: flex;
+    margin-bottom: 0.2rem;
     
-    
-    width: 100%;
-    color: #5fb1aa;
+    width: 100%;    
+    color: #37474f;
 }
 
-h1{
+.homeContainer .hometTitle h1{
     font-size: 2.4rem;
     display: flex;
     
     
     width: 100%;
-    color: #5fb1aa;
+    color: #37474f;
 }
 
 
-img {
-    margin-top: 20px;
-}
+
 
 @media screen and  (min-width:768px){
     img{
-        margin-top: 20px;
+        margin-top: 10px;
 
     }
-    h3{
-        margin-top: 22%;
+    .homeContainer .hometTitle h3{
+        margin-top: 25%;
+        /* margin-bottom: 0.2rem; */
     }
 
+    .sub{
+        margin-top:0.2rem;
+    }
 }
 
 .Typewriter{
-    font-size: 2.4rem;
-    color:#00e6d2;
+    font-size: 2.3rem;
+    color:#37474f;
+    ;
 }
+
+
+.btn {
+   
+    background-color: #00e6d2;
+    margin-left: 0px;
+
+}
+
+
+

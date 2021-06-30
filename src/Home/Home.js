@@ -14,7 +14,7 @@ export default function Home() {
           </Col>
           
           <Col  md="6">          
-           <img src={home2} alt="Home"/>
+           <img src={home2} alt="Home" className="vert-move"/>
           </Col>
         </Row>
       

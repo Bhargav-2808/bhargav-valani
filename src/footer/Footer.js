@@ -1,5 +1,7 @@
 import "./Footer.css";
-import { MDBFooter, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+// import {white } from "@material-ui/core/colors"
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -18,53 +20,71 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 const Footer = () => {
   return (
     <>
-      <MDBFooter color="black" className="font-small pt-4 mt-4">
-        <MDBContainer fluid className="text-center text-md-left">
-          <MDBRow>
-            <MDBCol md="6">
-              <h5 className="title">Footer Content</h5>
-              <p>
-                Here you can use rows and columns here to organize your footer
-                content.
-              </p>
-            </MDBCol>
-            <MDBCol md="6">
-              <h5 className="title">Links</h5>
-              <ul>
-                <li className="list-unstyled">
-                  <EmailIcon />
-                </li>
-                <li className="list-unstyled">
-                  <PhoneIcon />
-                </li>
-                <li className="list-unstyled">
-                  <InstagramIcon />
-                </li>
-                <li className="list-unstyled">
-                  <FacebookIcon />
-                </li>
-                <li className="list-unstyled">
-                  <GitHubIcon />
-                </li>
-                <li className="list-unstyled">
-                  <LinkedInIcon />
-                </li>
-                <li className="list-unstyled">
-                    StackOverflow
-                </li>
-                <li className="list-unstyled">
-                    Hashnode
-                </li>
-              </ul>
-            </MDBCol>
-          </MDBRow>
-        </MDBContainer>
-        <div className="footer-copyright text-center py-3">
-          <MDBContainer fluid>
-            &copy; {new Date().getFullYear()} Copyright:
-          </MDBContainer>
-        </div>
-      </MDBFooter>
+      <div style={{ backgroundColor: "#37474f", width: "100%" }}>
+        <Container className="Footer">
+          <Row className="justify-content-md-center ">
+            <Col md="6">
+              <div>
+                <h3>Bhargav Valani</h3>
+              </div>
+              <Row className="justify-content-md-center">
+                <Col md="6" className="d-flex justify-content-center">
+                  <Button variant="">
+                    <a
+                      href="https://stackoverflow.com/users/16188116/bhargav-valani"
+                      style={{
+                        textDecoration: "none",
+                        color: "#37474f",
+                        textAlign: "center",
+                      }}
+                    >
+                      StackOverflow
+                    </a>
+                  </Button>
+                </Col>
+                <Col md="6" className="d-flex justify-content-center">
+                  <Button variant="">
+                    <a
+                      href="https://hashnode.com/@bhargav2808"
+                      style={{
+                        textDecoration: "none",
+                        color: "#37474f",
+                        textAlign: "center",
+                      }}
+                    >
+                      Blog
+                    </a>
+                  </Button>
+                </Col>
+              </Row>
+            </Col>
+
+            <Col md="6" className="justify-content-md-center footericon">
+              <Row className="justify-content-md-center">
+                <Col md="2" className="d-flex justify-content-center">
+                  <EmailIcon style={{color:'white'}} />
+                  
+                </Col>
+                <Col md="2" className="d-flex justify-content-center">
+                  <PhoneIcon style={{color:'white'}}/>
+                </Col>
+                <Col md="2" className="d-flex justify-content-center">
+                  <FacebookIcon style={{color:'white'}}/>
+                </Col>
+                <Col md="2" className="d-flex justify-content-center">
+                  <InstagramIcon style={{color:'white'}}/>
+                </Col>
+                <Col md="2" className="d-flex justify-content-center">
+                  <GitHubIcon style={{color:'white'}}/>
+                </Col>
+                <Col md="2" className="d-flex justify-content-center">
+                  <LinkedInIcon style={{color:'white'}}/>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 };
