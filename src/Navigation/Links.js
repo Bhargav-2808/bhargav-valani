@@ -18,11 +18,11 @@ export default function Links() {
               <Nav.Link  as={Link} to={"/about"}>
                 About
               </Nav.Link>
+              <Nav.Link  as={Link} to={"/Skill"}>
+                Skill
+              </Nav.Link>
               <Nav.Link  as={Link} to={"/projects"}>
                 Projects
-              </Nav.Link>
-              <Nav.Link  as={Link} to={"/contact"}>
-                Contact
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
