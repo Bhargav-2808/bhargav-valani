@@ -1,6 +1,6 @@
 import "./Footer.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 // import {white } from "@material-ui/core/colors"
 import EmailIcon from "@material-ui/icons/Email";
 import PhoneIcon from "@material-ui/icons/Phone";
@@ -91,7 +91,7 @@ const Footer = () => {
 
             <Col md="6" className="justify-content-md-center footericon">
               <Row className="justify-content-md-center d-flex justify-content-center mb-5">
-                <div class="footer-link">
+                <div className="footer-link">
                   <a href="mailto:bhargavvalani01@gmail.com" target="blank">
                     <EmailIcon style={{}} />
                   </a>
@@ -124,7 +124,7 @@ const Footer = () => {
               <Row className="justify-content-md-center d-flex justify-content-center mb-5">
                 <Col className="justify-content-md-center d-flex justify-content-center mb-5">
                   <div className="mt-3 address">
-                    <p>
+                    
                       <h5> MO : +91 9327963077</h5>
                       <p>
                         {" "}
@@ -132,7 +132,6 @@ const Footer = () => {
                         <br />
                         Gujarat
                       </p>
-                    </p>
                   </div>
                 </Col>
               </Row>
