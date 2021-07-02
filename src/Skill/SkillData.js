@@ -17,6 +17,7 @@ import JAVASCRIPT from "../Assets/images/javascript.svg";
 import PYTHON from "../Assets/images/python.svg";
 import CPP from "../Assets/images/c++.svg";
 import C from "../Assets/images/c-program.svg";
+import JAVA from "../Assets/images/java.svg";
 
 
 
@@ -118,10 +119,16 @@ export const skills= {
     
     programmingLanguages: [
       {
-        link: "https://www.javascript.com/",
+        link: "https://docs.oracle.com/en/java/",
         imgAltText: "JavaScript",
         imgSrc: JAVASCRIPT,
         skillName: "JavaScript",
+      },
+      {
+        link: "https://www.javascript.com/",
+        imgAltText: "Java",
+        imgSrc: JAVA,
+        skillName: "Java",
       },
      
       {
