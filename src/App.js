@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import Links from "../src/Component/Navigation/Links";
 import Path from "../src/Component/Navigation/Path";
 import Footer from "../src/Component/footer/Footer";
@@ -15,10 +15,10 @@ function App() {
   return (
   <>
       <div className="background">
-        <BrowserRouter>
+        <HashRouter>
           <Links />
           <Path />
-        </BrowserRouter>
+        </HashRouter>
 
         <Footer />
       </div>
