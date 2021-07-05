@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import profile from "../Assets/images/profile.jpg";
+import profile from "../Assets/images/profile/profile.jpg";
 
 import "./About.css";
 export default function About() {

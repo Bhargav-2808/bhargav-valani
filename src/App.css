@@ -9,7 +9,7 @@
   }
 
   .background{
-    background: linear-gradient(163deg, rgba(196, 204, 205, -0.199), transparent),url(./Assets/images/background6.jpg);
+    background: linear-gradient(163deg, rgba(196, 204, 205, -0.199), transparent),url(./Assets/images/background/background6.jpg);
     /* background-image: url(./Assets/images/background5.jpg); */
     position: relative;
     background-size: cover;

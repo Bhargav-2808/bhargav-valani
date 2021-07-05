@@ -1,25 +1,23 @@
-.aboutimg{
-    width: 60%;
-    margin:10px;
-    border-radius: 2%;
-    
+.aboutimg {
+  width: 60%;
+  margin: 10px;
+  border-radius: 2%;
 }
-.aboutbackground{
-    background: linear-gradient(163deg, rgba(196, 204, 205, -0.199), transparent),url(../Assets/images/about.webp);
-    /* opacity: 0.5; */
-}
-
-.skill ul li{
-    text-transform: capitalize;
-    font-family: -webkit-pictograph;
-
-     
+.aboutbackground {
+  background: linear-gradient(163deg, rgba(196, 204, 205, -0.199), transparent),
+    url(../Assets/images/background/about.webp);
+  /* opacity: 0.5; */
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem;
 }
 
-.paragraph p{
-   
-    text-transform: capitalize;
-    font-size: 1em;
-    font-family: -webkit-pictograph;
+.skill ul li {
+  text-transform: capitalize;
+  font-family: -webkit-pictograph;
+}
 
+.paragraph p {
+  text-transform: capitalize;
+  font-size: 1em;
+  font-family: -webkit-pictograph;
 }
