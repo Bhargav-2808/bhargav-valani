@@ -1,7 +1,7 @@
 
 import {Container, Row, Col } from 'react-bootstrap'
 import './home.css'
-import home2 from'../Assets/images/icon/home2.svg'
+import home2 from'../../Assets/images/icon/home2.svg'
 import {Typing} from '../Typing/Typing'
 export default function Home() {
   return (

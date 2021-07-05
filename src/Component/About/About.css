@@ -5,7 +5,7 @@
 }
 .aboutbackground {
   background: linear-gradient(163deg, rgba(196, 204, 205, -0.199), transparent),
-    url(../Assets/images/background/about.webp);
+    url(../../Assets/images/background/about.webp);
   /* opacity: 0.5; */
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem;

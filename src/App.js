@@ -3,9 +3,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
 import { BrowserRouter } from "react-router-dom";
-import Links from "./Navigation/Links";
-import Path from "./Navigation/Path";
-import Footer from "./footer/Footer";
+import Links from "../src/Component/Navigation/Links";
+import Path from "../src/Component/Navigation/Path";
+import Footer from "../src/Component/footer/Footer";
 import "./App.css";
 
 
