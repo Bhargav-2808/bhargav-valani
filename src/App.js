@@ -1,4 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+
 
 import { BrowserRouter } from "react-router-dom";
 import Links from "./Navigation/Links";

@@ -13,7 +13,7 @@ import { Container } from "react-bootstrap";
 
 const Skills = () => {
   return (<>
-      <h1 className="text-center font-details-b pb-4" style={{color:"#37474f"}}>TECHNICAL SKILLS</h1>
+      <h1 className="text-center font-details-b pb-4 mt-5" style={{color:"#37474f"}}>TECHNICAL SKILLS</h1>
      
       <Container className="skill">
       <Row>
